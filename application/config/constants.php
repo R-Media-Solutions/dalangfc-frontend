@@ -89,9 +89,9 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 | Website Title
 |--------------------------------------------------------------------------
 */
-define('TITLE',                 "Bintang Fajar FC");
-define('DOMAIN_NAME',           "bintangfajar.com");
-define('COMPANY_NAME',          "Bintang Fajar FC");
+define('TITLE',                 "DALANG FC BOGOR");
+define('DOMAIN_NAME',           "dalangfcbogor.rmediasolutionsid.com");
+define('COMPANY_NAME',          "Dalang FC Bogor");
 define('COMPANY_PHONE',         "+62 857 1234 1234");
 define('COMPANY_WA',            "+62 857 1234 1234");
 define('COMPANY_ADDRESS',       "Jl. Pangeran Sogiri Jp.Selaawi RT03/RW03");
@@ -103,7 +103,7 @@ define('COMPANY_EMAIL',         "admin@" . DOMAIN_NAME);
 |--------------------------------------------------------------------------
 */
 define('SCHEMA', (@$_SERVER["HTTPS"] == "on") ? "https://" : "http://");
-define('BASE_URL', SCHEMA . (isset($_SERVER["SERVER_NAME"]) ? $_SERVER["SERVER_NAME"]."/bintangfajar-frontend" : '') . '/');
+define('BASE_URL', SCHEMA . (isset($_SERVER["SERVER_NAME"]) ? $_SERVER["SERVER_NAME"]."/dalangfc-frontend" : '') . '/');
 
 /*
 |--------------------------------------------------------------------------

@@ -4,6 +4,7 @@
 ?>
 <!--FOOTER BEGIN-->
 <footer class="footer">
+    <!--
     <div class="wrapper-overfllow">
         <div class="container">
             <div class="row">
@@ -34,6 +35,7 @@
             </div>
         </div>
     </div>
+    -->
     <div class="footer-menu-wrap">
         <div class="container">
             <div class="row">
