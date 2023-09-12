@@ -3,53 +3,18 @@
 
     <div class="owl-carousel owl-theme" role="listbox">
         
-        <div class="item msp_post_slide slide-1" >
+        <div class="item msp_post_slide" >
+            <img src="<?php echo ASSET_PATH; ?>images/slider/slider1.jpg" alt="player">
             <div class="slider-caption">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 col-sm-8">
-                            <h1 class="title">Team 1 - Team 2</h1>
+                            <h1 class="title">DALANG FC BOGOR - LEWINUTUG SELECTION FC</h1>
                             <div class="sub-title">
-                                FINAL GAME
+                                PERTANDINGAN PERSAHABATAN
                             </div>
                             <a href="index.html" class="btn">
-                                Read more
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="item msp_post_slide slide-2" >
-            <div class="slider-caption">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-8">
-                            <h1 class="title">Team 1 - Team 2</h1>
-                            <div class="sub-title">
-                                FINAL GAME
-                            </div>
-                            <a href="index.html" class="btn">
-                                Read more
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="item msp_post_slide slide-3" >
-            <div class="slider-caption">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-8">
-                            <h1 class="title">Team 1 - Team 2</h1>
-                            <div class="sub-title">
-                                FINAL GAME
-                            </div>
-                            <a href="index.html" class="btn">
-                                Read more
+                                Selengkapnya
                             </a>
                         </div>
                     </div>
@@ -73,8 +38,8 @@
 </div>
   <!--MAIN AMATURE SLIDER END-->
 
- <!--MAIN BREAKING NEWS BEGIN-->
- <div class="main-breaking-news">
+<!--MAIN BREAKING NEWS BEGIN-->
+<div class="main-breaking-news">
     <div class="container">
         <div class="row">
             <div class="col-md-2 col-sm-3 col-xs-12">
@@ -114,7 +79,7 @@
 </div>
 <!--MAIN BREAKING NEWS END-->
 
-    <!--MAIN MATCH SHEDULE BEGIN-->
+<!--MAIN MATCH SHEDULE BEGIN-->
 <div class="main-match-shedule amateurs-match-shedule">
     <div class="container">
         <div class="row">

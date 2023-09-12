@@ -18,6 +18,20 @@
                     <li class="<?php echo ($segment == 'home' || $segment == '') ? "active" : " "; ?>">
                         <a href="<?php echo BASE_URL; ?>"><span>Beranda</span></a>
                     </li>
+                    <li class="<?php echo ($segment == 'about-club' || $segment == 'club-stats') ? "active" : " "; ?>">
+                        <a href="<?php echo BASE_URL; ?>about-club"><span>TENTANG KLUB</span></a>
+                        <ul>
+                            <li class="<?php echo ($segment == 'about-club') ? "active" : " "; ?>"><a href="<?php echo BASE_URL; ?>about-club"><span>Sejarah Klub</span></a></li>
+                            <li class="<?php echo ($segment == 'club-stats') ? "active" : " "; ?>"><a href="<?php echo BASE_URL; ?>club-stats"><span>Statistik Klub</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="<?php echo ($segment == 'player' || $segment == 'staff') ? "active" : " "; ?>">
+                        <a href="<?php echo BASE_URL; ?>staff"><span>TIM</span></a>
+                        <ul>
+                            <li class="<?php echo ($segment == 'player') ? "active" : " "; ?>"><a href="<?php echo BASE_URL; ?>player"><span>Pemain</span></a></li>
+                            <li class="<?php echo ($segment == 'staff') ? "active" : " "; ?>"><a href="<?php echo BASE_URL; ?>staff"><span>Staf / Official</span></a></li>
+                        </ul>
+                    </li>
                     <li class="<?php echo ($segment == 'news') ? "active" : " "; ?>"><a href="<?php echo BASE_URL; ?>news"><span>Berita</span></a></li>
                     <li class="<?php echo ($segment == 'matches' || $segment == 'standing' || $segment == 'standing-cup' || $segment == 'broadcasts' || $segment == 'match-live' || $segment == 'live-text-stream' || $segment == 'upcoming-match') ? "active" : " "; ?>">
                         <a href="<?php echo BASE_URL; ?>matches"><span>Pertandingan</span></a>
@@ -46,20 +60,6 @@
                                 </ul>	
                             </li>
                             -->
-                        </ul>
-                    </li>
-                    <li class="<?php echo ($segment == 'about-club' || $segment == 'club-stats') ? "active" : " "; ?>">
-                        <a href="<?php echo BASE_URL; ?>about-club"><span>KLUB</span></a>
-                        <ul>
-                            <li class="<?php echo ($segment == 'about-club') ? "active" : " "; ?>"><a href="<?php echo BASE_URL; ?>about-club"><span>Sejarah Klub</span></a></li>
-                            <li class="<?php echo ($segment == 'club-stats') ? "active" : " "; ?>"><a href="<?php echo BASE_URL; ?>club-stats"><span>Statistik Klub</span></a></li>
-                        </ul>
-                    </li>
-                    <li class="<?php echo ($segment == 'player' || $segment == 'staff') ? "active" : " "; ?>">
-                        <a href="<?php echo BASE_URL; ?>staff"><span>TIM</span></a>
-                        <ul>
-                            <li class="<?php echo ($segment == 'player') ? "active" : " "; ?>"><a href="<?php echo BASE_URL; ?>player"><span>Pemain</span></a></li>
-                            <li class="<?php echo ($segment == 'staff') ? "active" : " "; ?>"><a href="<?php echo BASE_URL; ?>staff"><span>Staf / Official</span></a></li>
                         </ul>
                     </li>
                     <li class="<?php echo ($segment == 'contacts') ? "active" : " "; ?>"><a href="<?php echo BASE_URL; ?>contacts"><span>Hubungi Kami</span></a></li>

@@ -27,68 +27,80 @@
                 <h4>goalkeepers</h4>
             </div>
             <div class="staff-box">            
-                <div class="col-md-4  col-sm-6 col-xs-12">
-                    <a href="player-second-page.html" class="item">
-                        <span class="info">
-                            <span class="name">Dwi Maryanto</span>
-                            <span class="position">Goalkeeper</span>
-                            <span class="number">1</span>
-                        </span>
-                        <img src="<?php echo ASSET_PATH; ?>images/player/player-no.jpg" alt="player">
-                    </a>
-                </div>          
+                <?php if(isset($player['GOALKEEPER'])) : ?>
+                    <?php foreach($player['GOALKEEPER'] AS $row) : ?>
+                    <div class="col-md-4  col-sm-6 col-xs-12">
+                        <a href="player-second-page.html" class="item">
+                            <span class="info">
+                                <span class="name"><?php echo $row->name; ?></span>
+                                <span class="position"><?php echo $row->type_position; ?></span>
+                                <span class="number"><?php echo $row->jersey_number; ?></span>
+                            </span>
+                            <img src="<?php echo ASSET_PATH; ?>images/player/player-no-image.jpg" alt="player">
+                        </a>
+                    </div>  
+                    <?php endforeach; ?>
+                <?php endif; ?>          
             </div>
 
             <div class="col-md-12">
                 <h4>defenders</h4>
             </div>
             <div class="staff-box">            
-                <div class="col-md-4  col-sm-6 col-xs-12">
-                    <a href="player-second-page.html" class="item">
-                        <span class="info">
-                            <span class="name">Keevian Treapap</span>
-                            <span class="position">Goalkeeper</span>
-                            <span class="number">1</span>
-                        </span>
-                        <img src="<?php echo ASSET_PATH; ?>images/soccer/staff-item-img.jpg" alt="player">
-                    </a>
-                </div>            
+                <?php if(isset($player['DEFENDER'])) : ?>
+                    <?php foreach($player['DEFENDER'] AS $row) : ?>
+                    <div class="col-md-4  col-sm-6 col-xs-12">
+                        <a href="player-second-page.html" class="item">
+                            <span class="info">
+                                <span class="name"><?php echo $row->name; ?></span>
+                                <span class="position"><?php echo $row->type_position; ?></span>
+                                <span class="number"><?php echo $row->jersey_number; ?></span>
+                            </span>
+                            <img src="<?php echo ASSET_PATH; ?>images/player/player-no-image.jpg" alt="player">
+                        </a>
+                    </div>  
+                    <?php endforeach; ?>
+                <?php endif; ?>            
             </div>
 
             <div class="col-md-12">
                 <h4>Midfielder</h4>
             </div>
-            <div class="staff-box">            
-                <div class="col-md-4  col-sm-6 col-xs-12">
-                    <a href="player-second-page.html" class="item">
-                        <span class="info">
-                            <span class="name">Keevian Treapap</span>
-                            <span class="position">Goalkeeper</span>
-                            <span class="number">1</span>
-                        </span>
-                        <img src="<?php echo ASSET_PATH; ?>images/soccer/staff-item-img.jpg" alt="player">
-                    </a>
-                </div>            
+            <div class="staff-box">   
+                <?php if(isset($player['MIDFIELDER'])) : ?>
+                    <?php foreach($player['MIDFIELDER'] AS $row) : ?>
+                    <div class="col-md-4  col-sm-6 col-xs-12">
+                        <a href="player-second-page.html" class="item">
+                            <span class="info">
+                                <span class="name"><?php echo $row->name; ?></span>
+                                <span class="position"><?php echo $row->type_position; ?></span>
+                                <span class="number"><?php echo $row->jersey_number; ?></span>
+                            </span>
+                            <img src="<?php echo ASSET_PATH; ?>images/player/player-no-image.jpg" alt="player">
+                        </a>
+                    </div>  
+                    <?php endforeach; ?>
+                <?php endif; ?>          
             </div>
 
             <div class="col-md-12">
                 <h4>Forward</h4>
             </div>
             <div class="staff-box">            
-                <div class="col-md-4  col-sm-6 col-xs-12">
-                    <a href="player-second-page.html" class="item">
-                        <span class="info">
-                            <span class="name">Keevian Treapap</span>
-                            <span class="position">Goalkeeper</span>
-                            <span class="number">1</span>
-                        </span>
-                        <img src="<?php echo ASSET_PATH; ?>images/soccer/staff-item-img.jpg" alt="player">
-                    </a>
-                </div>            
-            </div>
-
-            <div class="col-md-12">
-                <p>Pabst irony tattooed, synth sriracha selvage pok pok. Wayfarers kinfolk sartorial, helvetica you probably haven't heard of them tumeric venmo deep v mixtape semiotics brunch. </p>
+                <?php if(isset($player['FORWARD'])) : ?>
+                    <?php foreach($player['FORWARD'] AS $row) : ?>
+                    <div class="col-md-4  col-sm-6 col-xs-12">
+                        <a href="player-second-page.html" class="item">
+                            <span class="info">
+                                <span class="name"><?php echo $row->name; ?></span>
+                                <span class="position"><?php echo $row->type_position; ?></span>
+                                <span class="number"><?php echo $row->jersey_number; ?></span>
+                            </span>
+                            <img src="<?php echo ASSET_PATH; ?>images/player/player-no-image.jpg" alt="player">
+                        </a>
+                    </div>  
+                    <?php endforeach; ?>
+                <?php endif; ?>            
             </div>
         </div>
     </div>
