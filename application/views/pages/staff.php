@@ -355,27 +355,3 @@
     </div>
 </section>
 <!--MAIN CLUB STAFF END-->
-
-    <!--SPONSOR BOX BEGIN-->
-<div class="am-sponsor-box">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 text-center">
-                    <p class="text">Whatever copper mug etsy, tilde listicle hammock gastropub literally franzen fanny pack typewriter meditation.<br> Organic chartreuse bicycle rights pinterest, cray humblebrag fap gochujang church-key brooklyn food truck letterpress cred. </p>
-                </div>
-                <div class="col-xs-3 text-center">
-                    <img  class="sponsor-icons" src="<?php echo ASSET_PATH; ?>images/common/sponsor-img3.png" alt="sponsor image">	
-                </div>
-                <div class="col-xs-3 text-center">
-                    <img class="sponsor-icons" src="<?php echo ASSET_PATH; ?>images/common/sponsor-img.png" alt="sponsor image">	
-                </div>
-                <div class="col-xs-3 text-center">
-                    <img  class="sponsor-icons" src="<?php echo ASSET_PATH; ?>images/common/sponsor-img1.png" alt="sponsor image">	
-                </div>
-                <div class="col-xs-3 text-center">
-                    <img  class="sponsor-icons" src="<?php echo ASSET_PATH; ?>images/common/sponsor-img2.png" alt="sponsor image">	
-                </div>
-            </div>
-        </div>
-    </div>
-<!--SPONSOR BOX END-->

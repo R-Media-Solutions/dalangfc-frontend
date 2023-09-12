@@ -291,4 +291,4 @@ define('SWIFT_MAILSERVER', realpath(dirname(__FILE__) . '/..') . DIRECTORY_SEPAR
 define("DEFAULT_LANGUAGE", "id");
 
 //copyright string/HTML
-define("COPYRIGHT","&copy;".date("Y")." by Eleven Digital Creative. All rights reserved.");
+define("COPYRIGHT","&copy;".date("Y")." by RMedia Solutions. All rights reserved.");

@@ -770,16 +770,16 @@
                     <p class="text">Whatever copper mug etsy, tilde listicle hammock gastropub literally franzen fanny pack typewriter meditation.<br> Organic chartreuse bicycle rights pinterest, cray humblebrag fap gochujang church-key brooklyn food truck letterpress cred. </p>
                 </div>
                 <div class="col-xs-3 text-center">
-                    <img  class="sponsor-icons" src="<?php echo ASSET_PATH; ?>images/common/sponsor-img3.png" alt="sponsor image">	
+                    <img  class="sponsor-icons" src="<?php echo ASSET_PATH; ?>images/sponsor/sponsor-img1.png" alt="sponsor image">	
                 </div>
                 <div class="col-xs-3 text-center">
-                    <img class="sponsor-icons" src="<?php echo ASSET_PATH; ?>images/common/sponsor-img.png" alt="sponsor image">	
+                    <img class="sponsor-icons" src="<?php echo ASSET_PATH; ?>images/sponsor/sponsor-img2.png" alt="sponsor image">	
                 </div>
                 <div class="col-xs-3 text-center">
-                    <img  class="sponsor-icons" src="<?php echo ASSET_PATH; ?>images/common/sponsor-img1.png" alt="sponsor image">	
+                    <img  class="sponsor-icons" src="<?php echo ASSET_PATH; ?>images/sponsor/sponsor-img4.png" alt="sponsor image">	
                 </div>
                 <div class="col-xs-3 text-center">
-                    <img  class="sponsor-icons" src="<?php echo ASSET_PATH; ?>images/common/sponsor-img2.png" alt="sponsor image">	
+                    <img  class="sponsor-icons" src="<?php echo ASSET_PATH; ?>images/sponsor/sponsor-img3.png" alt="sponsor image">	
                 </div>
             </div>
         </div>

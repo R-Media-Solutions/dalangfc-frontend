@@ -41,7 +41,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <ul class="footer-menu">
-                        <li>Powered <a href="https://elevendigital.id/" target="_blank"><span><?php echo COPYRIGHT; ?></span></a></li>
+                        <li>Powered <a href="https://rmediasolutionsid.com/" target="_blank"><span><?php echo COPYRIGHT; ?></span></a></li>
                     </ul>	
                     <a href="#top" class="foot-up"><span>up <i class="fa fa-caret-up" aria-hidden="true"></i></span></a>
                 </div>
