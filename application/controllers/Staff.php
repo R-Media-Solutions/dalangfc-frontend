@@ -42,7 +42,6 @@ class Staff extends CI_Controller {
         $data['scripts_add']    = $scripts_add;
         $data['main_content']   = 'pages/player';
 
-        
         $arrMember              = $this->Member_model->get_data_member();
         $arrPlayer              = array();
         if(!empty($arrMember)){

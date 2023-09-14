@@ -24,7 +24,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h4>goalkeepers</h4>
+                <h4>Kiper</h4>
             </div>
             <div class="staff-box">            
                 <?php if(isset($player['GOALKEEPER'])) : ?>
@@ -44,7 +44,7 @@
             </div>
 
             <div class="col-md-12">
-                <h4>defenders</h4>
+                <h4>Pemain Belakang</h4>
             </div>
             <div class="staff-box">            
                 <?php if(isset($player['DEFENDER'])) : ?>
@@ -64,7 +64,7 @@
             </div>
 
             <div class="col-md-12">
-                <h4>Midfielder</h4>
+                <h4>Pemain Tengah</h4>
             </div>
             <div class="staff-box">   
                 <?php if(isset($player['MIDFIELDER'])) : ?>
@@ -84,7 +84,7 @@
             </div>
 
             <div class="col-md-12">
-                <h4>Forward</h4>
+                <h4>Pemain Depan</h4>
             </div>
             <div class="staff-box">            
                 <?php if(isset($player['FORWARD'])) : ?>

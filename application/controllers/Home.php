@@ -8,6 +8,7 @@ class Home extends CI_Controller {
   function __construct()
   {
       parent::__construct();
+      $this->load->model('Member_model');
   }
   
 	public function index()
@@ -23,6 +24,16 @@ class Home extends CI_Controller {
     $data['scripts_init']   = $scripts_init;
     $data['scripts_add']    = $scripts_add;
     $data['main_content']   = 'pages/home';
+
+    $arrMember              = $this->Member_model->get_data_member();
+    $arrPlayer              = array();
+    if(!empty($arrMember)){
+        foreach($arrMember AS $rowMember){
+            if($rowMember->is_star != 1) continue;
+            $arrPlayer[$rowMember->type_position][] = $rowMember;
+        }
+    }
+    $data['player']         = $arrPlayer;
 
     $this->load->view('template', $data);
 	}

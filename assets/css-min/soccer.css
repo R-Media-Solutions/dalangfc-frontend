@@ -14151,7 +14151,7 @@ textarea {
  padding:30px 0 90px 0
 }
 .amateurs-main-match {
- padding:67px 50px 67px 50px;
+ padding:5px 50px 45px 50px;
  font-size:0;
  background:url(../images/soccer/amateurs-main-match-bg.jpg) 50% 50% no-repeat;
  background-size:cover
@@ -14168,8 +14168,8 @@ textarea {
  background-size:cover
 }
 .club-staff-top {
- padding-top:65px;
- padding-bottom:63px
+ padding-top:0px;
+ padding-bottom:0px
 }
 .main-menu-wrap {
  background:#141414;
@@ -15041,7 +15041,7 @@ body.admin-bar .is-sticky .main-menu-wrap {
  padding-bottom:34px
 }
 .amateurs-match-shedule {
- padding-top:97px;
+ /* padding-top:97px; */
  padding-bottom:80px;
  background:url(../images/soccer/amateurs-match-shedule-bg.jpg) no-repeat;
  background-size:cover
@@ -15120,8 +15120,8 @@ body.admin-bar .is-sticky .main-menu-wrap {
  font-family:Montserrat,sans-serif
 }
 .team .avatar img {
- height:60px;
- width:60px
+ height:100px;
+ width:100px;
 }
 .match-page-top {
  padding:80px 0 26px 0
@@ -19116,6 +19116,9 @@ overflow-scroll.table tr td {
 .players_statistic_slider .player-stat-slider .item .progress-line .bar.bar-6 {
  width:95%
 }
+.players_statistic_slider .player-stat-slider .item .progress-line .bar.bar-7 {
+ width:100%
+}
 .players_statistic_slider .player-stat-slider .arrow-wrap {
  width:40px;
  position:absolute;
@@ -19747,7 +19750,7 @@ overflow-scroll.table tr td {
  line-height:normal
 }
 .amateurs-main-match .score {
- padding:35px 0 33px 0;
+ /* padding:35px 0 33px 0; */
  width:20%;
  display:inline-block;
  text-align:center;

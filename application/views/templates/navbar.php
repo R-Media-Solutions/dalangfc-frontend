@@ -32,7 +32,6 @@
                             <li class="<?php echo ($segment == 'staff') ? "active" : " "; ?>"><a href="<?php echo BASE_URL; ?>staff"><span>Staf / Official</span></a></li>
                         </ul>
                     </li>
-                    <li class="<?php echo ($segment == 'news') ? "active" : " "; ?>"><a href="<?php echo BASE_URL; ?>news"><span>Berita</span></a></li>
                     <li class="<?php echo ($segment == 'matches' || $segment == 'standing' || $segment == 'standing-cup' || $segment == 'broadcasts' || $segment == 'match-live' || $segment == 'live-text-stream' || $segment == 'upcoming-match') ? "active" : " "; ?>">
                         <a href="<?php echo BASE_URL; ?>matches"><span>Pertandingan</span></a>
                         <ul>
@@ -62,6 +61,7 @@
                             -->
                         </ul>
                     </li>
+                    <li class="<?php echo ($segment == 'news') ? "active" : " "; ?>"><a href="<?php echo BASE_URL; ?>news"><span>Berita</span></a></li>
                     <li class="<?php echo ($segment == 'contacts') ? "active" : " "; ?>"><a href="<?php echo BASE_URL; ?>contacts"><span>Hubungi Kami</span></a></li>
                 </ul>
             </div>       

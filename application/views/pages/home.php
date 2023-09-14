@@ -9,13 +9,57 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 col-sm-8">
-                            <h1 class="title">DALANG FC BOGOR - LEWINUTUG SELECTION FC</h1>
+                            <!--
+                            <h1 class="title"></h1>
                             <div class="sub-title">
                                 PERTANDINGAN PERSAHABATAN
                             </div>
                             <a href="index.html" class="btn">
                                 Selengkapnya
                             </a>
+                            -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item msp_post_slide" >
+            <img src="<?php echo ASSET_PATH; ?>images/slider/slider2.jpg" alt="player">
+            <div class="slider-caption">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-8">
+                            <h1 class="title">FUN FUTSAL - LAPANGAN FUTSAL LOLA POMAD KOTA BOGOR</h1>
+                            <div class="sub-title">
+                                SESI LATIHAN
+                            </div>
+                            <!--
+                            <a href="index.html" class="btn">
+                                Selengkapnya
+                            </a>
+                            -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item msp_post_slide" >
+            <img src="<?php echo ASSET_PATH; ?>images/slider/slider3.jpg" alt="player">
+            <div class="slider-caption">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-8">
+                            <h1 class="title">FUN FUTSAL - LAPANGAN FUTSAL PAJAJARAN KOTA BOGOR</h1>
+                            <div class="sub-title">
+                                SESI LATIHAN
+                            </div>
+                            <!--
+                            <a href="index.html" class="btn">
+                                Selengkapnya
+                            </a>
+                            -->
                         </div>
                     </div>
                 </div>
@@ -50,14 +94,8 @@
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <a href="news-single.html">
-                                <span class="date">20 Sep 2016 <span>/</span></span>	
-                                <span class="news"><img src="<?php echo ASSET_PATH; ?>images/common/news-youtube-icon.png" alt="news-youtube">Revenge is sweet: Great matchday four recoveries</span>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="news-single.html">
-                                <span class="date">22 Sep 2016 <span>/</span></span>	
-                                <span class="news">Revenge is sweet: Great matchday four recoveries</span>
+                                <span class="date">17 Sep 2023 <span>/</span></span>	
+                                <span class="news">Friendly Match Mini Soccer : Dalang FC Bogor vs Lewinutug Selection FC</span>
                             </a>
                         </div>
                     </div>	
@@ -85,28 +123,29 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="amateurs-main-match">
-                    <div class="title">Pertandingan Persahabatan</div>	
+                    <div class="title"><h4><b>Pertandingan Persahabatan</b></h4></div>	
                     <div class="team">
-                        <div class="avatar"><img src="<?php echo ASSET_PATH; ?>images/soccer/logo.png" alt="team-logo"></div>
+                        <div class="avatar"><img src="<?php echo ASSET_PATH; ?>images/logo/match/dalang-fc-bogor.png" alt="team-logo"></div>
                         <div class="text">
-                            <span class="name">COATS FC</span>
+                            <span class="name">DALANG FC BOGOR</span>
                             <span class="city">Kota Bogor</span>
                         </div>
                     </div>
                     <div class="score">
-                        3:2	
+                        <h1><b>0 : 0</b></h1>
                     </div>
                     <div class="team guest">
                         <div class="text">
-                            <span class="name">Bintang Fajar FC</span>
-                            <span class="city">Kota Bogor</span>
+                            <span class="name">Lewinutug Selection FC</span>
+                            <span class="city">Kabupaten Bogor</span>
                         </div>	
-                        <div class="avatar"><img src="<?php echo ASSET_PATH; ?>images/logo/logo.png" alt="team-logo"></div>
+                        <div class="avatar"><img src="<?php echo ASSET_PATH; ?>images/logo/match/lewinutug-selection-fc.png" alt="team-logo"></div>
                     </div>
-                    <div class="title">Lapangan Brimob Sukasari <br/>Rabu, 24 Mei 2023 / 15:00 - Selesai</div>
+                    <div class="title">Lapangan Mini Soccer Q Sport Arena <br/>Minggu, 17 September 2023 / 16:30 - 20.00 WIB</div>
                 </div>
             </div>
             <div class="col-md-12"><h6>Pertandingan Sebelumnya</h6></div>
+
             <div class="col-md-12">
                 <ul class="tab-filters" role="tablist">
                     <li class="active"><a href="#friendlies" role="tab" data-toggle="tab">Persahabatan</a></li>
@@ -120,6 +159,7 @@
                 <div class="tab-pane active" id="nationalcup" role="tabpanel">
                     <div class="col-md-12">
                         <div class="main-lates-matches">
+                            <!--
                             <a href="matches.html" class="item">
                                 <span class="championship">National cup - quarterfinal</span>
                                 <span class="teams-wrap">
@@ -129,21 +169,14 @@
                                 </span>
                                 <span class="game-result">(5-4) penalties</span>
                             </a>
-                            <a href="matches.html" class="item">
-                                <span class="championship">National cup - quarterfinal</span>
-                                <span class="teams-wrap">
-                                    <span class="team"><span><img src="<?php echo ASSET_PATH; ?>images/soccer/team-logo3.png" alt="team-logo"></span><span>Team 1</span></span>
-                                    <span class="score"><span>3:2</span></span>
-                                    <span class="team1"><span>Team 2</span><span><img src="<?php echo ASSET_PATH; ?>images/soccer/team-logo4.png" alt="team-logo"></span></span>
-                                </span>
-                                <span class="game-result">(5-4) penalties</span>
-                            </a>
+                            -->
                         </div>
                     </div>
                 </div>
                 <div class="tab-pane" id="championship" role="tabpanel">
                     <div class="col-md-12">
                         <div class="main-lates-matches">
+                            <!--
                             <a href="matches.html" class="item">
                                 <span class="championship">Championship - quarterfinal</span>
                                 <span class="teams-wrap">
@@ -153,21 +186,14 @@
                                 </span>
                                 <span class="game-result">(5-4) penalties</span>
                             </a>
-                            <a href="matches.html" class="item">
-                                <span class="championship">Championship - quarterfinal</span>
-                                <span class="teams-wrap">
-                                    <span class="team"><span><img src="<?php echo ASSET_PATH; ?>images/soccer/team-logo3.png" alt="team-logo"></span><span>Team 1</span></span>
-                                    <span class="score"><span>3:2</span></span>
-                                    <span class="team1"><span>Team 2</span><span><img src="<?php echo ASSET_PATH; ?>images/soccer/team-logo4.png" alt="team-logo"></span></span>
-                                </span>
-                                <span class="game-result">(5-4) penalties</span>
-                            </a>
+                            -->
                         </div>
                     </div>
                 </div>
                 <div class="tab-pane" id="friendlies" role="tabpanel">
                     <div class="col-md-12">
                         <div class="main-lates-matches">
+                            <!--
                             <a href="matches.html" class="item">
                                 <span class="championship">Friendly match</span>
                                 <span class="teams-wrap">
@@ -177,21 +203,14 @@
                                 </span>
                                 <span class="game-result">(5-4) penalties</span>
                             </a>
-                            <a href="matches.html" class="item">
-                                <span class="championship">Friendly match</span>
-                                <span class="teams-wrap">
-                                    <span class="team"><span><img src="<?php echo ASSET_PATH; ?>images/soccer/team-logo1.png" alt="team-logo"></span><span>Team 1</span></span>
-                                    <span class="score"><span>3:3</span></span>
-                                    <span class="team1"><span>Team 2</span><span><img src="<?php echo ASSET_PATH; ?>images/soccer/team-logo2.png" alt="team-logo"></span></span>
-                                </span>
-                                <span class="game-result">(5-4) penalties</span>
-                            </a>
+                            -->
                         </div>
                     </div>
                 </div>
                 <div class="tab-pane" id="showall" role="tabpanel">
                     <div class="col-md-12">
                         <div class="main-lates-matches">
+                            <!--
                             <a href="matches.html" class="item">
                                 <span class="championship">National cup - quarterfinal</span>
                                 <span class="teams-wrap">
@@ -201,56 +220,12 @@
                                 </span>
                                 <span class="game-result">(5-4) penalties</span>
                             </a>
-                            <a href="matches.html" class="item">
-                                <span class="championship">National cup - quarterfinal</span>
-                                <span class="teams-wrap">
-                                    <span class="team"><span><img src="<?php echo ASSET_PATH; ?>images/soccer/team-logo3.png" alt="team-logo"></span><span>Team 1</span></span>
-                                    <span class="score"><span>3:2</span></span>
-                                    <span class="team1"><span>Team 2</span><span><img src="<?php echo ASSET_PATH; ?>images/soccer/team-logo4.png" alt="team-logo"></span></span>
-                                </span>
-                                <span class="game-result">(5-4) penalties</span>
-                            </a>
-                            <a href="matches.html" class="item">
-                                <span class="championship">Championship - quarterfinal</span>
-                                <span class="teams-wrap">
-                                    <span class="team"><span><img src="<?php echo ASSET_PATH; ?>images/soccer/team-logo3.png" alt="team-logo"></span><span>Team 1 </span></span>
-                                    <span class="score"><span>3:2</span></span>
-                                    <span class="team1"><span>Team 2 Internacionasal</span><span><img src="<?php echo ASSET_PATH; ?>images/soccer/team-logo4.png" alt="team-logo"></span></span>
-                                </span>
-                                <span class="game-result">(5-4) penalties</span>
-                            </a>
-                            <a href="matches.html" class="item">
-                                <span class="championship">Championship - quarterfinal</span>
-                                <span class="teams-wrap">
-                                    <span class="team"><span><img src="<?php echo ASSET_PATH; ?>images/soccer/team-logo3.png" alt="team-logo"></span><span>Team 1</span></span>
-                                    <span class="score"><span>3:2</span></span>
-                                    <span class="team1"><span>Team 2</span><span><img src="<?php echo ASSET_PATH; ?>images/soccer/team-logo4.png" alt="team-logo"></span></span>
-                                </span>
-                                <span class="game-result">(5-4) penalties</span>
-                            </a>
-                            <a href="matches.html" class="item">
-                                <span class="championship">Friendly match</span>
-                                <span class="teams-wrap">
-                                    <span class="team"><span><img src="<?php echo ASSET_PATH; ?>images/soccer/team-logo3.png" alt="team-logo"></span><span>Team 1</span></span>
-                                    <span class="score"><span>2:2</span></span>
-                                    <span class="team1"><span>Team 2</span><span><img src="<?php echo ASSET_PATH; ?>images/soccer/team-logo4.png" alt="team-logo"></span></span>
-                                </span>
-                                <span class="game-result">(5-4) penalties</span>
-                            </a>
-                            <a href="matches.html" class="item">
-                                <span class="championship">Friendly match</span>
-                                <span class="teams-wrap">
-                                    <span class="team"><span><img src="<?php echo ASSET_PATH; ?>images/soccer/team-logo1.png" alt="team-logo"></span><span>Team 1</span></span>
-                                    <span class="score"><span>3:3</span></span>
-                                    <span class="team1"><span>Team 2</span><span><img src="<?php echo ASSET_PATH; ?>images/soccer/team-logo2.png" alt="team-logo"></span></span>
-                                </span>
-                                <span class="game-result">(5-4) penalties</span>
-                            </a>
-
+                            -->
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </div>
@@ -275,115 +250,148 @@
                             Pemain Belakang
                         </a>
                     </li>
+                    <li>
+                        <a href="#midfielders" role="tab" data-toggle="tab">
+                            Pemain Tengah
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#forward" role="tab" data-toggle="tab">
+                            Pemain Depan
+                        </a>
+                    </li>
 
                 </ul>
                 <div class="player-stat-slider tab-content">      
                     <div id="slider" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner tab-content" role="listbox">
                             <div class="item active tab-pane" id="goalkeepers">
-
-                                <div class="wrap">
-                                    <div class="stat">
-                                        <div class="top-info with_number">
-                                            <div class="number">12</div>
-                                            <a href="player-second-page.html" class="name">
-                                                HAYDEN FREEMAN
+                                <?php if(isset($player['GOALKEEPER'])) : ?>
+                                    <?php foreach($player['GOALKEEPER'] AS $row) : ?>
+                                    <div class="wrap">
+                                        <div class="stat">
+                                            <div class="top-info with_number">
+                                                <div class="number"><?php echo $row->jersey_number; ?></div>
+                                                <a href="player-second-page.html" class="name"><?php echo $row->name; ?></a>
+                                            </div>
+                                            <div class="position"><?php echo $row->type_position; ?></div>
+                                            <div class="progress-wrap">
+                                                <div class="progress-item">
+                                                    <div class="bar-label">
+                                                        <div class="achievement">Bermain</div>
+                                                        <div class="score">2</div>
+                                                    </div>
+                                                    <div class="progress-line">
+                                                        <div class="bar bar-7" ></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="image">
+                                            <a href="player-second-page.html" title="player-image">
+                                                <img src="<?php echo ASSET_PATH; ?>images/player/player-no-image.jpg" alt="player-image">
                                             </a>
-                                        </div>
-                                        <div class="position">
-                                            Kiper
-                                        </div>
-                                        <div class="progress-wrap">
-                                            <div class="progress-item">
-                                                <div class="bar-label">
-                                                    <div class="achievement">played</div>
-                                                    <div class="score">23</div>
-                                                </div>
-                                                <div class="progress-line">
-                                                    <div class="bar bar-1" ></div>
-                                                </div>
-                                            </div>
-                                            <div class="progress-item">
-                                                <div class="bar-label">
-                                                    <div class="achievement">saves</div>
-                                                    <div class="score">23</div>
-                                                </div>
-                                                <div class="progress-line">
-                                                    <div class="bar bar-2" ></div>
-                                                </div>
-                                            </div>
-                                            <div class="progress-item">
-                                                <div class="bar-label">
-                                                    <div class="achievement">missing</div>
-                                                    <div class="score">23</div>
-                                                </div>
-                                                <div class="progress-line">
-                                                    <div class="bar bar-3" ></div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        </div>	
                                     </div>
-                                    <div class="image">
-                                        <a href="player-second-page.html" title="player-image">
-                                            <img src="<?php echo ASSET_PATH; ?>images/soccer/player-stat-slider-img.jpg" alt="player-image">
-                                        </a>
-                                    </div>	
-                                </div>
+                                    <?php endforeach; ?>
+                                <?php endif; ?>     
                             </div>
+
                             <div class="item tab-pane" id="defenders">
-                                <div class="wrap">
-                                    <div class="stat">
-                                        <div class="top-info with_number">
-                                            <div class="number">1</div>
-                                            <a href="player.html" class="name">
-                                                JORG BELAFFSOON
+                                <?php if(isset($player['DEFENDER'])) : ?>
+                                    <?php foreach($player['DEFENDER'] AS $row) : ?>
+                                    <div class="wrap">
+                                        <div class="stat">
+                                            <div class="top-info with_number">
+                                                <div class="number"><?php echo $row->jersey_number; ?></div>
+                                                <a href="player-second-page.html" class="name"><?php echo $row->name; ?></a>
+                                            </div>
+                                            <div class="position"><?php echo $row->type_position; ?></div>
+                                            <div class="progress-wrap">
+                                                <div class="progress-item">
+                                                    <div class="bar-label">
+                                                        <div class="achievement">Bermain</div>
+                                                        <div class="score">2</div>
+                                                    </div>
+                                                    <div class="progress-line">
+                                                        <div class="bar bar-7" ></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="image">
+                                            <a href="player-second-page.html" title="player-image">
+                                                <img src="<?php echo ASSET_PATH; ?>images/player/player-no-image.jpg" alt="player-image">
                                             </a>
-                                        </div>
-                                        <div class="top-info">
-                                            <a href="player-second-page.html" class="name">
-                                            </a>
-                                        </div>
-                                        <div class="position">
-                                            Defender
-                                        </div>
-                                        <div class="progress-wrap">
-                                            <div class="progress-item">
-                                                <div class="bar-label">
-                                                    <div class="achievement">played</div>
-                                                    <div class="score">23</div>
-                                                </div>
-                                                <div class="progress-line">
-                                                    <div class="bar bar-4" ></div>
-                                                </div>
-                                            </div>
-                                            <div class="progress-item">
-                                                <div class="bar-label">
-                                                    <div class="achievement">saves</div>
-                                                    <div class="score">23</div>
-                                                </div>
-                                                <div class="progress-line">
-                                                    <div class="bar bar-5" ></div>
-                                                </div>
-                                            </div>
-                                            <div class="progress-item">
-                                                <div class="bar-label">
-                                                    <div class="achievement">missing</div>
-                                                    <div class="score">23</div>
-                                                </div>
-                                                <div class="progress-line">
-                                                    <div class="bar bar-6" ></div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        </div>	
                                     </div>
-                                    <div class="image">
-                                        <a href="player-second-page.html" title="player-image">
-                                            <img src="<?php echo ASSET_PATH; ?>images/soccer/player-stat-slider-img.jpg" alt="player-image">
-                                        </a>
-                                    </div>	
-                                </div>
+                                    <?php endforeach; ?>
+                                <?php endif; ?>
+                            </div>
+                            
+                            <div class="item tab-pane" id="midfielders">
+                                <?php if(isset($player['MIDFIELDER'])) : ?>
+                                    <?php foreach($player['MIDFIELDER'] AS $row) : ?>
+                                    <div class="wrap">
+                                        <div class="stat">
+                                            <div class="top-info with_number">
+                                                <div class="number"><?php echo $row->jersey_number; ?></div>
+                                                <a href="player-second-page.html" class="name"><?php echo $row->name; ?></a>
+                                            </div>
+                                            <div class="position"><?php echo $row->type_position; ?></div>
+                                            <div class="progress-wrap">
+                                                <div class="progress-item">
+                                                    <div class="bar-label">
+                                                        <div class="achievement">Bermain</div>
+                                                        <div class="score">2</div>
+                                                    </div>
+                                                    <div class="progress-line">
+                                                        <div class="bar bar-7" ></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="image">
+                                            <a href="player-second-page.html" title="player-image">
+                                                <img src="<?php echo ASSET_PATH; ?>images/player/player-no-image.jpg" alt="player-image">
+                                            </a>
+                                        </div>	
+                                    </div>
+                                    <?php endforeach; ?>
+                                <?php endif; ?>
                             </div>
 
+                            <div class="item tab-pane" id="forward">
+                                <?php if(isset($player['FORWARD'])) : ?>
+                                    <?php foreach($player['FORWARD'] AS $row) : ?>
+                                    <div class="wrap">
+                                        <div class="stat">
+                                            <div class="top-info with_number">
+                                                <div class="number"><?php echo $row->jersey_number; ?></div>
+                                                <a href="player-second-page.html" class="name"><?php echo $row->name; ?></a>
+                                            </div>
+                                            <div class="position"><?php echo $row->type_position; ?></div>
+                                            <div class="progress-wrap">
+                                                <div class="progress-item">
+                                                    <div class="bar-label">
+                                                        <div class="achievement">Bermain</div>
+                                                        <div class="score">2</div>
+                                                    </div>
+                                                    <div class="progress-line">
+                                                        <div class="bar bar-7" ></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="image">
+                                            <a href="player-second-page.html" title="player-image">
+                                                <img src="<?php echo ASSET_PATH; ?>images/player/player-no-image.jpg" alt="player-image">
+                                            </a>
+                                        </div>	
+                                    </div>
+                                    <?php endforeach; ?>
+                                <?php endif; ?>
+                            </div>
 
                             <div class="arrow-wrap">
                                 <!-- Controls -->
@@ -416,78 +424,22 @@
                 </div>
                 <div class="tab-content">
                     <div class="best-players-list tab-pane active" id="goals">
+                        <!--
                         <a href="player-second-page.html" class="item">
                             <span class="number">9</span>
                             <span>Luis Hernandez</span>
                             <span class="achievement">14</span>
                         </a>
-                        <a href="player.html" class="item">
-                            <span class="number">9</span>
-                            <span>Luis Hernandez</span>
-                            <span class="achievement">14</span>
-                        </a>
-                        <a href="player-second-page.html" class="item">
-                            <span class="number">9</span>
-                            <span>Luis Hernandez</span>
-                            <span class="achievement">14</span>
-                        </a>
-                        <a href="player.html" class="item">
-                            <span class="number">9</span>
-                            <span>Luis Hernandez</span>
-                            <span class="achievement">14</span>
-                        </a>
-                        <a href="player.html" class="item">
-                            <span class="number">9</span>
-                            <span>Luis Hernandez</span>
-                            <span class="achievement">14</span>
-                        </a>
-                        <a href="player-second-page.html" class="item">
-                            <span class="number">9</span>
-                            <span>Luis Hernandez</span>
-                            <span class="achievement">14</span>
-                        </a>
-                        <a href="player.html" class="item">
-                            <span class="number">9</span>
-                            <span>Luis Hernandez</span>
-                            <span class="achievement">14</span>
-                        </a>    
+                        -->
                     </div>
                     <div class="best-players-list tab-pane" id="assist">
+                        <!--
                         <a href="player.html" class="item">
                             <span class="number">1</span>
                             <span>Luis Hernandez</span>
                             <span class="achievement">14</span>
                         </a>
-                        <a href="player-second-page.html" class="item">
-                            <span class="number">9</span>
-                            <span>Luis Hernandez</span>
-                            <span class="achievement">14</span>
-                        </a>
-                        <a href="player.html" class="item">
-                            <span class="number">9</span>
-                            <span>Luis Hernandez</span>
-                            <span class="achievement">14</span>
-                        </a>
-                        <a href="player.html" class="item">
-                            <span class="number">9</span>
-                            <span>Luis Hernandez</span>
-                            <span class="achievement">14</span>
-                        </a>
-                        <a href="player-second-page.html" class="item">
-                            <span class="number">9</span>
-                            <span>Luis Hernandez</span>
-                            <span class="achievement">14</span>
-                        </a>
-                        <a href="player.html" class="item">
-                            <span class="number">9</span>
-                            <span>Luis Hernandez</span>
-                            <span class="achievement">14</span>
-                        </a>
-                        <a href="player.html" class="item">
-                            <span class="number">9</span>
-                            <span>Luis Hernandez</span>
-                            <span class="achievement">14</span>
-                        </a>
+                        -->
                     </div>
                 </div>
                 </div>
@@ -627,73 +579,40 @@
 <div class="amateurs-news-list">
     <div class="container">
         <div class="row">
-            <div class="col-md-12"><h4>Team news</h4></div>
+            <div class="col-md-12"><h4>Berita Tim</h4></div>
             <div class="col-md-10 col-xs-9">
                 <ul class="tab-filters" role="tablist">
-                    <li class="active"><a href="#news" role="tab" data-toggle="tab">News</a></li>
-                    <li><a href="#highlights" role="tab" data-toggle="tab">Highlight</a></li>
-                    <li><a href="#interviews" role="tab" data-toggle="tab">interviews</a></li>
+                    <li class="active"><a href="#news" role="tab" data-toggle="tab">Berita</a></li>
+                    <li><a href="#highlights" role="tab" data-toggle="tab">Acara</a></li>
+                    <li><a href="#interviews" role="tab" data-toggle="tab">Wawancara</a></li>
                 </ul>
             </div>
             <div class="col-md-2 col-xs-3 text-right">
-
-                <a id="show-all-link" href="news.html">Show all</a>
-
+                <a id="show-all-link" href="<?php echo BASE_URL; ?>news">Tampilkan Semua</a>
             </div>
             <div class="tab-content">
                 <div class="tab-pane active" id="news" role="tabpanel">
                     <div class="col-md-4">
                         <div class="item">
-                            <a href="news-single.html" class="img-wrap"><img src="<?php echo ASSET_PATH; ?>images/soccer/news1.jpg" alt="news-single"></a>
-                            <a href="news-single.html" class="name">Bauza: Bozo and Topolo will start against Intertupo</a>
-                            <div class="date"><a href="news-single.html">25 Sep 2016</a> by <a href="news-single.html">Logan Holmes</a></div>
-                            <p>Snackwave tote bag fixie gluten-free, affogato master cleanse cronut portland prism knausgaard.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="item">
-                            <a href="news-single.html" class="img-wrap"><img src="<?php echo ASSET_PATH; ?>images/soccer/news2.jpg" alt="news-single"></a>
-                            <a href="news-single.html" class="name">Bauza: Bozo and Topolo will start against Intertupo</a>
-                            <div class="date"><a href="news-single.html">25 Sep 2016</a> by <a href="news-single.html">Logan Holmes</a></div>
-                            <p>Snackwave tote bag fixie gluten-free, affogato master cleanse cronut portland prism knausgaard.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="item">
-                            <a href="news-single.html" class="img-wrap"><img src="<?php echo ASSET_PATH; ?>images/soccer/news3.jpg" alt="news-single"></a>
-                            <a href="news-single.html" class="name">Bauza: Bozo and Topolo will start against Intertupo</a>
-                            <div class="date"><a href="news-single.html">25 Sep 2016</a> by <a href="news-single.html">Logan Holmes</a></div>
-                            <p>Snackwave tote bag fixie gluten-free, affogato master cleanse cronut portland prism knausgaard.</p>
+                            <a href="news-single.html" class="img-wrap"><img src="<?php echo ASSET_PATH; ?>images/news/news1.jpg" alt="news-single"></a>
+                            <a href="news-single.html" class="name">Friendly Match Mini Soccer : Dalang FC Bogor vs Lewinutug Selection FC</a>
+                            <div class="date"><a href="news-single.html">14 Sep 2023</a> by <a href="news-single.html">Admin</a></div>
+                            <p>Friendly Match Mini Soccer : Dalang FC Bogor vs Lewinutug Selection FC akan dilaksanakan di Lapangan Q Sport Arena Cibinong - Kabupaten Bogor pada Pukul 18.00 - 20.00 WIB.</p>
                         </div>
                     </div>
                 </div>
                 <div class="tab-pane" id="highlights" role="tabpanel">
                     <div class="col-md-4">
                         <div class="item">
-                            <a href="news-single.html" class="img-wrap"><img src="<?php echo ASSET_PATH; ?>images/soccer/news2.jpg" alt="news-single"></a>
-                            <a href="news-single.html" class="name">Test Bozo and Topolo will start against Intertupo</a>
-                            <div class="date"><a href="news-single.html">25 Sep 2016</a> by <a href="news-single.html">Logan Holmes</a></div>
-                            <p>Snackwave tote bag fixie gluten-free, affogato master cleanse cronut portland prism knausgaard.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="item">
-                            <a href="news-single.html" class="img-wrap"><img src="<?php echo ASSET_PATH; ?>images/soccer/news3.jpg" alt="news-single"></a>
-                            <a href="news-single.html" class="name">Bauza: Bozo and Topolo will start against Intertupo</a>
-                            <div class="date"><a href="news-single.html">25 Sep 2016</a> by <a href="news-single.html">Logan Holmes</a></div>
-                            <p>Snackwave tote bag fixie gluten-free, affogato master cleanse cronut portland prism knausgaard.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="item">
-                            <a href="news-single.html" class="img-wrap"><img src="<?php echo ASSET_PATH; ?>images/soccer/news1.jpg" alt="news-single"></a>
-                            <a href="news-single.html" class="name">Bauza: Bozo and Topolo will start against Intertupo</a>
-                            <div class="date"><a href="news-single.html">25 Sep 2016</a> by <a href="news-single.html">Logan Holmes</a></div>
-                            <p>Snackwave tote bag fixie gluten-free, affogato master cleanse cronut portland prism knausgaard.</p>
+                            <a href="news-single.html" class="img-wrap"><img src="<?php echo ASSET_PATH; ?>images/news/news2.jpg" alt="news-single"></a>
+                            <a href="news-single.html" class="name">Launching Home Kit</a>
+                            <div class="date"><a href="news-single.html">14 Sep 2023</a> by <a href="news-single.html">Admin</a></div>
+                            <p>Pada pertandingan Dalang FC Bogor vs Lewinutug Selection FC menjadi ajang untuk mempromosikan Home Kit kami yang pertama.</p>
                         </div>
                     </div>
                 </div>
                 <div class="tab-pane" id="interviews" role="tabpanel">
+                    <!--
                     <div class="col-md-4">
                         <div class="item">
                             <a href="news-single.html" class="img-wrap"><img src="<?php echo ASSET_PATH; ?>images/soccer/news1.jpg" alt="news-single"></a>
@@ -702,51 +621,35 @@
                             <p>Snackwave tote bag fixie gluten-free, affogato master cleanse cronut portland prism knausgaard.</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="item">
-                            <a href="news-single.html" class="img-wrap"><img src="<?php echo ASSET_PATH; ?>images/soccer/news3.jpg" alt="news-single"></a>
-                            <a href="news-single.html" class="name">Bauza: Bozo and Topolo will start against Intertupo</a>
-                            <div class="date"><a href="news-single.html">25 Sep 2016</a> by <a href="news-single.html">Logan Holmes</a></div>
-                            <p>Snackwave tote bag fixie gluten-free, affogato master cleanse cronut portland prism knausgaard.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="item">
-                            <a href="news-single.html" class="img-wrap"><img src="<?php echo ASSET_PATH; ?>images/soccer/news2.jpg" alt="news-single"></a>
-                            <a href="news-single.html" class="name">Bauza: Bozo and Topolo will start against Intertupo</a>
-                            <div class="date"><a href="news-single.html">25 Sep 2016</a> by <a href="news-single.html">Logan Holmes</a></div>
-                            <p>Snackwave tote bag fixie gluten-free, affogato master cleanse cronut portland prism knausgaard.</p>
-                        </div>
-                    </div>
+                    -->
                 </div>
-
-
 
             </div>
         </div>
     </div>
 </div>
 <!--AMATEURS NEWS LIST END-->
+
 <!--SPONSOR BOX BEGIN-->
 <div class="am-sponsor-box">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 text-center">
-                    <p class="text">Whatever copper mug etsy, tilde listicle hammock gastropub literally franzen fanny pack typewriter meditation.<br> Organic chartreuse bicycle rights pinterest, cray humblebrag fap gochujang church-key brooklyn food truck letterpress cred. </p>
-                </div>
-                <div class="col-xs-3 text-center">
-                    <img  class="sponsor-icons" src="<?php echo ASSET_PATH; ?>images/sponsor/sponsor-img1.png" alt="sponsor image">	
-                </div>
-                <div class="col-xs-3 text-center">
-                    <img class="sponsor-icons" src="<?php echo ASSET_PATH; ?>images/sponsor/sponsor-img2.png" alt="sponsor image">	
-                </div>
-                <div class="col-xs-3 text-center">
-                    <img  class="sponsor-icons" src="<?php echo ASSET_PATH; ?>images/sponsor/sponsor-img4.png" alt="sponsor image">	
-                </div>
-                <div class="col-xs-3 text-center">
-                    <img  class="sponsor-icons" src="<?php echo ASSET_PATH; ?>images/sponsor/sponsor-img3.png" alt="sponsor image">	
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <p class="text">Mitra kerja kami sebagai sponsorship dan partnership. Mendukung dan bekerjasama dalam membangun tim. </p>
+            </div>
+            <div class="col-xs-3 text-center">
+                <img  class="sponsor-icons" src="<?php echo ASSET_PATH; ?>images/sponsor/sponsor-img1.png" alt="sponsor image">	
+            </div>
+            <div class="col-xs-3 text-center">
+                <img class="sponsor-icons" src="<?php echo ASSET_PATH; ?>images/sponsor/sponsor-img2.png" alt="sponsor image">	
+            </div>
+            <div class="col-xs-3 text-center">
+                <img  class="sponsor-icons" src="<?php echo ASSET_PATH; ?>images/sponsor/sponsor-img4.png" alt="sponsor image">	
+            </div>
+            <div class="col-xs-3 text-center">
+                <img  class="sponsor-icons" src="<?php echo ASSET_PATH; ?>images/sponsor/sponsor-img3.png" alt="sponsor image">	
             </div>
         </div>
     </div>
+</div>
 <!--SPONSOR BOX END-->
