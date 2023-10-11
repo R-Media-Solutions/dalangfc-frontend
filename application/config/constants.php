@@ -103,8 +103,7 @@ define('COMPANY_EMAIL',         "admin@" . DOMAIN_NAME);
 |--------------------------------------------------------------------------
 */
 define('SCHEMA', (@$_SERVER["HTTPS"] == "on") ? "https://" : "http://");
-define('BASE_URL', SCHEMA . (isset($_SERVER["SERVER_NAME"]) ? $_SERVER["SERVER_NAME"]."/dalangfc-frontend" : '') . '/');
-
+define('BASE_URL', SCHEMA . (isset($_SERVER["SERVER_NAME"]) ? $_SERVER["SERVER_NAME"] : '') . '/');
 /*
 |--------------------------------------------------------------------------
 | Document Root Path

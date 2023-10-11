@@ -13,28 +13,28 @@ class Home extends CI_Controller {
   
 	public function index()
 	{
-    $headstyles             = "";
-    $loadscripts            = "";
-    $scripts_init           = "";
-    $scripts_add            = '';
+        $headstyles             = "";
+        $loadscripts            = "";
+        $scripts_init           = "";
+        $scripts_add            = '';
 
-    $data['title']          = TITLE . 'Beranda';
-    $data['headstyles']     = $headstyles;
-    $data['scripts']        = $loadscripts;
-    $data['scripts_init']   = $scripts_init;
-    $data['scripts_add']    = $scripts_add;
-    $data['main_content']   = 'pages/home';
+        $data['title']          = TITLE . 'Beranda';
+        $data['headstyles']     = $headstyles;
+        $data['scripts']        = $loadscripts;
+        $data['scripts_init']   = $scripts_init;
+        $data['scripts_add']    = $scripts_add;
+        $data['main_content']   = 'pages/home';
 
-    $arrMember              = $this->Member_model->get_data_member();
-    $arrPlayer              = array();
-    if(!empty($arrMember)){
-        foreach($arrMember AS $rowMember){
-            if($rowMember->is_star != 1) continue;
-            $arrPlayer[$rowMember->type_position][] = $rowMember;
+        $arrMember              = $this->Member_model->get_data_member();
+        $arrPlayer              = array();
+        if(!empty($arrMember)){
+            foreach($arrMember AS $rowMember){
+                if($rowMember->is_star != 1) continue;
+                $arrPlayer[$rowMember->type_position][] = $rowMember;
+            }
         }
-    }
-    $data['player']         = $arrPlayer;
+        $data['player']         = $arrPlayer;
 
-    $this->load->view('template', $data);
+        $this->load->view('template', $data);
 	}
 }

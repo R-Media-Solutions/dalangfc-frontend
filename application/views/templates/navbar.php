@@ -5,7 +5,7 @@
 ?>
 <div class="main-menu-wrap sticky-menu">
     <div class="container">
-        <a href="<?php echo BASE_URL; ?>" class="custom-logo-link"><img src="assets/images/logo/logo-color.png" width=84 alt="logo" class="custom-logo"></a>
+        <a href="<?php echo BASE_URL; ?>" class="custom-logo-link"><img src="<?php echo ASSET_PATH; ?>images/logo/logo-color.png" width=84 alt="logo" class="custom-logo"></a>
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#team-menu" aria-expanded="false">
             <span class="sr-only">Navigasi</span>
             <span class="icon-bar"></span>

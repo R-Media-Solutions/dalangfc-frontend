@@ -58,4 +58,6 @@
 <script type="text/javascript" src="<?php echo ASSET_PATH; ?>js/player_test.js"></script>
 
 <script type="text/javascript" src="<?php echo ASSET_PATH; ?>js/main.js"></script>
+<!--
 <script type="text/javascript" src="<?php echo ASSET_PATH; ?>dev-assets/demo-switcher.js"></script>
+-->

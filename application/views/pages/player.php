@@ -30,7 +30,7 @@
                 <?php if(isset($player['GOALKEEPER'])) : ?>
                     <?php foreach($player['GOALKEEPER'] AS $row) : ?>
                     <div class="col-md-4  col-sm-6 col-xs-12">
-                        <a href="player-second-page.html" class="item">
+                        <a href="<?php echo BASE_URL; ?>player/<?php echo $row->id; ?>" class="item">
                             <span class="info">
                                 <span class="name"><?php echo $row->name; ?></span>
                                 <span class="position"><?php echo $row->type_position; ?></span>
@@ -50,7 +50,7 @@
                 <?php if(isset($player['DEFENDER'])) : ?>
                     <?php foreach($player['DEFENDER'] AS $row) : ?>
                     <div class="col-md-4  col-sm-6 col-xs-12">
-                        <a href="player-second-page.html" class="item">
+                        <a href="<?php echo BASE_URL; ?>player/<?php echo $row->id; ?>" class="item">
                             <span class="info">
                                 <span class="name"><?php echo $row->name; ?></span>
                                 <span class="position"><?php echo $row->type_position; ?></span>
@@ -70,7 +70,7 @@
                 <?php if(isset($player['MIDFIELDER'])) : ?>
                     <?php foreach($player['MIDFIELDER'] AS $row) : ?>
                     <div class="col-md-4  col-sm-6 col-xs-12">
-                        <a href="player-second-page.html" class="item">
+                        <a href="<?php echo BASE_URL; ?>player/<?php echo $row->id; ?>" class="item">
                             <span class="info">
                                 <span class="name"><?php echo $row->name; ?></span>
                                 <span class="position"><?php echo $row->type_position; ?></span>
@@ -90,7 +90,7 @@
                 <?php if(isset($player['FORWARD'])) : ?>
                     <?php foreach($player['FORWARD'] AS $row) : ?>
                     <div class="col-md-4  col-sm-6 col-xs-12">
-                        <a href="player-second-page.html" class="item">
+                        <a href="<?php echo BASE_URL; ?>player/<?php echo $row->id; ?>" class="item">
                             <span class="info">
                                 <span class="name"><?php echo $row->name; ?></span>
                                 <span class="position"><?php echo $row->type_position; ?></span>

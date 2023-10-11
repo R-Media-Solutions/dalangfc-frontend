@@ -64,3 +64,4 @@ $route['about-club']            = "aboutClub/index";
 $route['club-stats']            = "aboutClub/clubStats";
 
 $route['player']                = "staff/player";
+$route['player/(:any)']         = "staff/player/$1";

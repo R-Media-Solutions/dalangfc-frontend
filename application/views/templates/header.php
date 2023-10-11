@@ -11,3 +11,4 @@
 <link rel="stylesheet" type="text/css" href="<?php echo ASSET_PATH; ?>css/library/bootstrap.css" />
 <link rel="stylesheet" type="text/css" href="<?php echo ASSET_PATH; ?>dev-assets/preloader-default.css" />
 <link rel="stylesheet" type="text/css" href="<?php echo ASSET_PATH; ?>dev-assets/demo-switcher.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo ASSET_PATH; ?>css-min/soccer.css" />

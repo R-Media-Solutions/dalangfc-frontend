@@ -28,7 +28,7 @@ class Staff extends CI_Controller {
         $this->load->view('template', $data);
     }
 
-    public function player()
+    public function player($id = '')
     {
         $headstyles             = "";
         $loadscripts            = "";
@@ -40,17 +40,26 @@ class Staff extends CI_Controller {
         $data['scripts']        = $loadscripts;
         $data['scripts_init']   = $scripts_init;
         $data['scripts_add']    = $scripts_add;
-        $data['main_content']   = 'pages/player';
-
-        $arrMember              = $this->Member_model->get_data_member();
-        $arrPlayer              = array();
-        if(!empty($arrMember)){
-            foreach($arrMember AS $rowMember){
-                $arrPlayer[$rowMember->type_position][] = $rowMember;
-            }
+        if(empty($id)){
+            $data['main_content']   = 'pages/player';
+        }else{
+            $data['main_content']   = 'pages/player-detail';
         }
-        $data['player']         = $arrPlayer;
 
+        $arrMember              = $this->Member_model->get_data_member($id);
+        if(empty($id)){
+            $arrPlayer              = array();
+            if(!empty($arrMember)){
+                foreach($arrMember AS $rowMember){
+                    $arrPlayer[$rowMember->type_position][] = $rowMember;
+                }
+            }
+            $data['player']         = $arrPlayer;
+        }
+        else{
+            $data['player']         = $arrMember;
+        }
+        
         $this->load->view('template', $data);
     }
 }
